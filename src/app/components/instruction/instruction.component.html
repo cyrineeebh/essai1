@@ -1,0 +1,61 @@
+<form id="monForm4">
+  <section id="instruction">
+  <h1>CLIENT INSTRUCTION CREATION</h1>
+  <div class="form-row">
+    <label for="inputSecAccount">Client Sec Account</label>
+    <input required type="text" class="form-control" id="inputSecAccount" placeholder="12345SEC">
+  </div>
+  <div class="form-row">
+      <label class="mr-sm-6" for="tranType">Transaction Type</label>
+      <select class="custom-select mr-sm-6" id="tranType">
+        <option selected>Choose...</option>
+        <option value="1">dvp </option>
+        <option value="2">RVP </option>
+        
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="inputInstrument">Instrument</label>
+      <input required type="text" class="form-control" id="inputInstrument " placeholder="credit agricole SA">
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <label for="inputQuantiy">Quantity</label>
+        <input type="text" class="form-control" id="inputQuantity">
+      </div>
+      <div class="form-group col-md-4">
+          <label for="inputPrice">Price</label>
+          <input type="text" class="form-control" id="inputPrice" >
+        </div>
+      <div class="form-group col-md-4">
+        <label for="inputcurrency">Currency</label>
+        <select id="inputCurrency" class="form-control">
+          <option selected>Choose...</option>
+          <option>$</option>
+          <option>€</option>
+        </select>
+      </div>
+      
+    </div>
+    <div class="form-group">
+    <label for="trade"> Trade date</label>
+    <input type="date" id="trade" name="trade-date"
+
+     min=sysdate >
+   
+      <label for="setDate"> Settelment date</label>
+      <input type="date" id="setDate" name="set-date"
+
+       min="#trade-date" > </div>
+       <div><button  ><i class="fa fa-paper-plane" aria-hidden="true">
+        Confirm </i></button>      </div>
+
+    
+
+
+
+    
+ 
+</section>
+
+</form>

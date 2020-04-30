@@ -1,0 +1,9 @@
+section {
+    position:absolute;
+    top:700%;
+    left:50%;
+    width:3000px; /* A toi de donner la bonne largeur */
+    height:1500px; /* A toi de donner la bonne hauteur */
+    margin-left:-1500px; /* -largeur/2 */
+    margin-top:-125px;
+}

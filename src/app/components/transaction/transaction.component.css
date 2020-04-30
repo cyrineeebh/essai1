@@ -1,0 +1,52 @@
+#monForm3 {
+   position:absolute;
+   top:370%;
+   left:50%;
+   right: 50%;
+   width:1000px; /* A toi de donner la bonne largeur */
+   height:1000px; /* A toi de donner la bonne hauteur */
+   margin-left:-500px; /* -largeur/2 */
+   margin-top:-125px; /* -hauteur/2 */
+ 
+}
+
+
+     input {
+       font-family: "Times New Roman", Times, serif;
+       font-size:20px  ;
+
+    
+       }
+       h1 {
+        color:rgba(139, 10, 10, 0.767) !important;
+        font-family: Andale Mono, monospace;      
+           font-size:50px  ;
+        
+     
+        }
+        button{
+           background-color: rgba(139, 10, 10, 0.767);
+           margin-top: 50px;
+           font-size:25px  ;  ;
+    color: white;
+        }
+        select {
+           font-size:20px  ;
+        }
+       
+       label{
+       color:black; 
+      
+       }
+       a {
+          text-decoration: none;
+          color :white;
+          font-size:24px  ;
+          margin-right: 9px;
+       }
+      
+      div {
+        font-size:20px  ;
+        font-family: Andale Mono, monospace;
+
+      }
